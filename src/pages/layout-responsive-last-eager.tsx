@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function LayoutResponsiveLastEager() {
   return (
     <div>
-      <h2>Layout Responsive</h2>
+      <h2>Layout Responsive with last image with loading=eager</h2>
 
       {photos.map((photo, index) => (
         <Image

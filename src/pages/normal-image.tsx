@@ -1,9 +1,9 @@
 import { photos } from '../photos';
 
-export default function LayoutFill() {
+export default function NormalImage() {
   return (
     <div>
-      <h2>My Image</h2>
+      <h2>Normal Image (img)</h2>
 
       {photos.map((photo) => (
         <img

@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function LayoutFixed() {
   return (
     <div>
-      <h2>My Image</h2>
+      <h2>Layout Fixed</h2>
 
       {photos.map((photo) => (
         <Image
@@ -13,6 +13,7 @@ export default function LayoutFixed() {
           height={photo.height}
           src={photo.src}
           alt={photo.alt}
+          layout="fixed"
         />
       ))}
     </div>
