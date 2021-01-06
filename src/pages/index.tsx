@@ -29,7 +29,9 @@ export default function Home() {
         The next 3 examples are exactly the same, the only difference is the
         quality
       </h4>
-      <h5>You can check your network tab to see the difference in KB/MB downloaded</h5>
+      <h5>
+        You can check your network tab to see the difference in KB/MB downloaded
+      </h5>
       <CustomLink href="/layout-responsive-quality-1">
         Layout responsive and image quality=1
       </CustomLink>
@@ -38,6 +40,15 @@ export default function Home() {
       </CustomLink>
       <CustomLink href="/layout-responsive-quality-100">
         Layout responsive and image quality=100
+      </CustomLink>
+
+      <hr />
+      <h4>
+        We are loading an image from another domain, hosted at:
+        https://upload.wikimedia.org/wikipedia/commons/b/b1/VAN_CAT.png
+      </h4>
+      <CustomLink href="/external-domain-image">
+        External Domain Image
       </CustomLink>
     </>
   );
